@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+SELINUX_IGNORE_NEVERALLOWS=true
+
 BOARD_VENDOR := realme
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true

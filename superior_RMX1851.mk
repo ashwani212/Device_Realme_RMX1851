@@ -7,7 +7,7 @@
 $(call inherit-product, device/realme/RMX1851/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_RMX1851
@@ -37,5 +37,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 #SuperioeOS Stuff
+SUPERIOR_OFFICIAL := true
 SUPERIOR_GAPPS := minimal
 TARGET_GAPPS_ARCH := arm64
