@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/eternity_RMX1851.mk
+    $(LOCAL_DIR)/droidx_RMX1851.mk
 
 COMMON_LUNCH_CHOICES := \
-    eternity_RMX1851-user \
-    eternity_RMX1851-userdebug \
-    eternity_RMX1851-eng
+    droidx_RMX1851-user \
+    droidx_RMX1851-userdebug \
+    droidx_RMX1851-eng
