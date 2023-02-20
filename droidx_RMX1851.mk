@@ -39,5 +39,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 #DroidXUI props
 DROIDX_BUILDTYPE := OFFICIAL
-
-DROIDX_GAPPS := true
+DROIDX_MAINTAINER := Ashwani212×Cykeek
