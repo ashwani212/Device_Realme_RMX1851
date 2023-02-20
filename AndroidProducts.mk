@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/droidx_RMX1851.mk
+    $(LOCAL_DIR)/blaze_RMX1851.mk
 
 COMMON_LUNCH_CHOICES := \
-    droidx_RMX1851-user \
-    droidx_RMX1851-userdebug \
-    droidx_RMX1851-eng
+    blaze_RMX1851-user \
+    blaze_RMX1851-userdebug \
+    blaze_RMX1851-eng

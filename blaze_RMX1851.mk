@@ -7,10 +7,10 @@
 $(call inherit-product, device/realme/RMX1851/device.mk)
 
 # Inherit some common DroidXUI stuff.
-$(call inherit-product, vendor/droidx/config/common.mk)
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := droidx_RMX1851
+PRODUCT_NAME := blaze_RMX1851
 PRODUCT_DEVICE := RMX1851
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := realme 3 Pro
@@ -36,5 +36,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
-
-
+# Blaze Props
+BLAZE_MAINTAINER := Ashwani212
